@@ -8,8 +8,8 @@ def test_empty_todo_list_returns_empty_lists():
 
 def test_after_adding_two_todos_incomplete_returns_both():
     todo_list = TodoList()
-    todo_1 = Todo("Buy milk")
-    todo_2 = Todo("Clean room")
+    todo_1 = Todo("Buy eggs")
+    todo_2 = Todo("Clean bedroom")
 
     todo_list.add(todo_1)
     todo_list.add(todo_2)
@@ -18,8 +18,8 @@ def test_after_adding_two_todos_incomplete_returns_both():
 
 def test_after_adding_two_todos_complete_returns_empty_list():
     todo_list = TodoList()
-    todo_1 = Todo("Buy milk")
-    todo_2 = Todo("Clean room")
+    todo_1 = Todo("Buy eggs")
+    todo_2 = Todo("Clean bedroom")
 
     todo_list.add(todo_1)
     todo_list.add(todo_2)
@@ -28,8 +28,8 @@ def test_after_adding_two_todos_complete_returns_empty_list():
 
 def test_after_adding_two_todos_and_marking_one_complete_splits_lists():
     todo_list = TodoList()
-    todo_1 = Todo("Buy milk")
-    todo_2 = Todo("Clean room")
+    todo_1 = Todo("Buy eggs")
+    todo_2 = Todo("Clean bedroom")
 
     todo_list.add(todo_1)
     todo_list.add(todo_2)
@@ -41,8 +41,8 @@ def test_after_adding_two_todos_and_marking_one_complete_splits_lists():
 
 def test_give_up_marks_everything_complete():
     todo_list = TodoList()
-    todo_1 = Todo("Buy milk")
-    todo_2 = Todo("Clean room")
+    todo_1 = Todo("Buy eggs")
+    todo_2 = Todo("Clean bedroom")
 
     todo_list.add(todo_1)
     todo_list.add(todo_2)
@@ -54,8 +54,8 @@ def test_give_up_marks_everything_complete():
 
 def test_give_up_when_some_already_complete():
     todo_list = TodoList()
-    todo_1 = Todo("Buy milk")
-    todo_2 = Todo("Clean room")
+    todo_1 = Todo("Buy eggs")
+    todo_2 = Todo("Clean bedroom")
 
     todo_list.add(todo_1)
     todo_list.add(todo_2)
