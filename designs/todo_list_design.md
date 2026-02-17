@@ -49,8 +49,8 @@ and I give up on the list
 all todos should end up complete
 """
 todo_list = TodoList()
-todo_1 = Todo("Buy milk")
-todo_2 = Todo("Clean room")
+todo_1 = Todo("Buy eggs")
+todo_2 = Todo("Clean bedroom")
 todo_list.add(todo_1)
 todo_list.add(todo_2)
 
